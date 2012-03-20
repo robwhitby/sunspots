@@ -53,8 +53,8 @@ declare function calculate-scores ()
     s:process("1 3 4 2 3 2 2 1 3 2 1"),
     "(1,1 score:20)"
   ),
-	assert:equal(
-		s:process("1 3 1 1 1 1 2 1 1 1 1"),
+  assert:equal(
+    s:process("1 3 1 1 1 1 2 1 1 1 1"),
     "(1,1 score:10)"
   ),
   assert:equal(
